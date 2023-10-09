@@ -1,0 +1,21 @@
+
+@media(min-width:768px){
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        background-color: #212529;
+        padding: 60px 0;
+        color: white;
+    }
+}
+@media(max-width:767px){
+    .footer{
+        background-color: #212529;
+        padding: 60px 0;
+        color: white;
+        padding: 20px;
+    }
+    .span{
+        margin-bottom: 20px;
+    }
+}

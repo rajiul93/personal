@@ -1,0 +1,140 @@
+@media(max-width:768px){
+  .about{
+    padding-top: 70px;
+  }
+  .about-title {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .about-header {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    line-height: 120px;
+  }
+  
+  .backgroun-about {
+    position: absolute;
+    display: block;
+    font-size: 80px;
+    opacity: 0.1;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 120px;
+  }
+  
+  /* .about-container {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 6% 0 6%;
+  } */
+  .about-content {
+    /* width:70% ; */
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .identity {
+    width: 100%;
+    padding: 6%;
+  }
+  .identity ul li {
+    line-height: 40px;
+    font-size: 18px;
+    border-bottom: 1px solid #222222;
+  }
+  .about-h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .about-review {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    justify-content: space-around;
+    /* gap: 50px; */
+    color: #636363;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 70px;
+  }
+  .about-review div {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-review .quantity {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+  }
+}
+@media(min-width:769px){
+  .about-title {
+    position: relative;
+    margin-bottom: 70px;
+  }
+  .about-header {
+    font-weight: 600;
+    font-size: 32px;
+    text-align: center;
+    line-height: 120px;
+  }
+  
+  .backgroun-about {
+    position: absolute;
+    display: block;
+    font-size: 120px;
+    opacity: 0.1;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    line-height: 120px;
+  }
+  
+  .about-container {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 6% 0 6%;
+  }
+  .about-content {
+    /* width:70% ; */
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .identity {
+    width: 400px;
+  }
+  .identity ul li {
+    line-height: 40px;
+    font-size: 18px;
+    border-bottom: 1px solid #222222;
+  }
+  .about-h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .about-review {
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    justify-content: space-around;
+    /* gap: 50px; */
+    color: #636363;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 70px;
+  }
+  .about-review div {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-review .quantity {
+    text-align: center;
+    font-size: 42px;
+    font-weight: 900;
+  }
+}

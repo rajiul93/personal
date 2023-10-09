@@ -1,0 +1,73 @@
+.summary-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0 6% 0 6%;
+  
+
+}
+.educaton-exprience{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.summary-single-content{
+    border: 1px solid rgb(219, 218, 218);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 5px 11px 12px -10px gainsboro;
+
+    width: 85%;
+   
+   
+}
+.summary-single-content .year{
+    background-color: #20c997;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 16px;
+
+}
+.summary-single-content h1{
+    font-size: 24px;
+    line-height: 30px;
+    margin: 15px 0 10px 0;
+    color: #4f4f4f;
+
+}
+.summary-single-content .collage{
+    color: red;
+    font-size: 16px;
+   /* padding: 10px; */
+}
+.summary-single-content p{
+    margin-top: 20px;
+}
+.paragraph{
+    line-height: 30px;
+    color: #4f4f4f;
+    
+}
+.range{
+    display: flex; 
+    flex-direction: column; 
+    margin-top: 20px;
+}
+.range span{
+    line-height: 30px;
+}
+.range-container{
+    display: flex; 
+    justify-content: center;
+     gap: 40px; 
+     margin-bottom: 70px; 
+     padding: 0 6% 0 6%;
+}
+.skills{
+    margin-top: 60px;
+    padding: 0 6% 0 6%;
+
+}
